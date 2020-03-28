@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9403B31D242F6A1F00F2BEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9403B31C242F6A1F00F2BEED /* AppDelegate.swift */; };
+		9403B31F242F6A1F00F2BEED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9403B31E242F6A1F00F2BEED /* SceneDelegate.swift */; };
+		9403B321242F6A1F00F2BEED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9403B320242F6A1F00F2BEED /* ViewController.swift */; };
+		9403B324242F6A1F00F2BEED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9403B322242F6A1F00F2BEED /* Main.storyboard */; };
+		9403B326242F6A1F00F2BEED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9403B325242F6A1F00F2BEED /* Assets.xcassets */; };
+		9403B329242F6A1F00F2BEED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9403B327242F6A1F00F2BEED /* LaunchScreen.storyboard */; };
+		9403B33C242F6A4900F2BEED /* Alkrsi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9403B331242F6A4900F2BEED /* Alkrsi.mp3 */; };
+		9403B33D242F6A4900F2BEED /* Almulk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9403B332242F6A4900F2BEED /* Almulk.mp3 */; };
+		9403B33E242F6A4900F2BEED /* Alfalaq.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9403B333242F6A4900F2BEED /* Alfalaq.mp3 */; };
+		9403B33F242F6A4900F2BEED /* Alekhlas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9403B334242F6A4900F2BEED /* Alekhlas.mp3 */; };
+		9403B340242F6A4900F2BEED /* Alnas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9403B335242F6A4900F2BEED /* Alnas.mp3 */; };
+		9403B341242F6A4900F2BEED /* Alfateha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9403B336242F6A4900F2BEED /* Alfateha.mp3 */; };
+		9403B342242F6A4900F2BEED /* AllahAkbar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9403B337242F6A4900F2BEED /* AllahAkbar.mp3 */; };
+		9403B343242F6A4900F2BEED /* LaElahaElaAllah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9403B338242F6A4900F2BEED /* LaElahaElaAllah.mp3 */; };
+		9403B344242F6A4900F2BEED /* Subhan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9403B339242F6A4900F2BEED /* Subhan.mp3 */; };
+		9403B346242F6A4900F2BEED /* Alhamdu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9403B33B242F6A4900F2BEED /* Alhamdu.mp3 */; };
+		D22BA0AF242F85CD002EC169 /* aThuluth.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D22BA0AE242F85CD002EC169 /* aThuluth.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9403B319242F6A1E00F2BEED /* AthkarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AthkarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9403B31C242F6A1F00F2BEED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9403B31E242F6A1F00F2BEED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9403B320242F6A1F00F2BEED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9403B323242F6A1F00F2BEED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9403B325242F6A1F00F2BEED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9403B328242F6A1F00F2BEED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9403B32A242F6A1F00F2BEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9403B331242F6A4900F2BEED /* Alkrsi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alkrsi.mp3; sourceTree = "<group>"; };
+		9403B332242F6A4900F2BEED /* Almulk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Almulk.mp3; sourceTree = "<group>"; };
+		9403B333242F6A4900F2BEED /* Alfalaq.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alfalaq.mp3; sourceTree = "<group>"; };
+		9403B334242F6A4900F2BEED /* Alekhlas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alekhlas.mp3; sourceTree = "<group>"; };
+		9403B335242F6A4900F2BEED /* Alnas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alnas.mp3; sourceTree = "<group>"; };
+		9403B336242F6A4900F2BEED /* Alfateha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alfateha.mp3; sourceTree = "<group>"; };
+		9403B337242F6A4900F2BEED /* AllahAkbar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AllahAkbar.mp3; sourceTree = "<group>"; };
+		9403B338242F6A4900F2BEED /* LaElahaElaAllah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LaElahaElaAllah.mp3; sourceTree = "<group>"; };
+		9403B339242F6A4900F2BEED /* Subhan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Subhan.mp3; sourceTree = "<group>"; };
+		9403B33B242F6A4900F2BEED /* Alhamdu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alhamdu.mp3; sourceTree = "<group>"; };
+		D22BA0AE242F85CD002EC169 /* aThuluth.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = aThuluth.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9403B316242F6A1E00F2BEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9403B310242F6A1E00F2BEED = {
+			isa = PBXGroup;
+			children = (
+				9403B31B242F6A1E00F2BEED /* AthkarApp */,
+				9403B31A242F6A1E00F2BEED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9403B31A242F6A1E00F2BEED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9403B319242F6A1E00F2BEED /* AthkarApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9403B31B242F6A1E00F2BEED /* AthkarApp */ = {
+			isa = PBXGroup;
+			children = (
+				9403B31C242F6A1F00F2BEED /* AppDelegate.swift */,
+				9403B31E242F6A1F00F2BEED /* SceneDelegate.swift */,
+				9403B320242F6A1F00F2BEED /* ViewController.swift */,
+				9403B322242F6A1F00F2BEED /* Main.storyboard */,
+				9403B325242F6A1F00F2BEED /* Assets.xcassets */,
+				9403B327242F6A1F00F2BEED /* LaunchScreen.storyboard */,
+				D22BA0AD242F85CD002EC169 /* Font */,
+				9403B330242F6A4900F2BEED /* sounds */,
+				9403B32A242F6A1F00F2BEED /* Info.plist */,
+			);
+			path = AthkarApp;
+			sourceTree = "<group>";
+		};
+		9403B330242F6A4900F2BEED /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9403B331242F6A4900F2BEED /* Alkrsi.mp3 */,
+				9403B332242F6A4900F2BEED /* Almulk.mp3 */,
+				9403B333242F6A4900F2BEED /* Alfalaq.mp3 */,
+				9403B334242F6A4900F2BEED /* Alekhlas.mp3 */,
+				9403B335242F6A4900F2BEED /* Alnas.mp3 */,
+				9403B336242F6A4900F2BEED /* Alfateha.mp3 */,
+				9403B337242F6A4900F2BEED /* AllahAkbar.mp3 */,
+				9403B338242F6A4900F2BEED /* LaElahaElaAllah.mp3 */,
+				9403B339242F6A4900F2BEED /* Subhan.mp3 */,
+				9403B33B242F6A4900F2BEED /* Alhamdu.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		D22BA0AD242F85CD002EC169 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				D22BA0AE242F85CD002EC169 /* aThuluth.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9403B318242F6A1E00F2BEED /* AthkarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9403B32D242F6A1F00F2BEED /* Build configuration list for PBXNativeTarget "AthkarApp" */;
+			buildPhases = (
+				9403B315242F6A1E00F2BEED /* Sources */,
+				9403B316242F6A1E00F2BEED /* Frameworks */,
+				9403B317242F6A1E00F2BEED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AthkarApp;
+			productName = AthkarApp;
+			productReference = 9403B319242F6A1E00F2BEED /* AthkarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9403B311242F6A1E00F2BEED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Dalal Alhazeem";
+				TargetAttributes = {
+					9403B318242F6A1E00F2BEED = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9403B314242F6A1E00F2BEED /* Build configuration list for PBXProject "AthkarApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9403B310242F6A1E00F2BEED;
+			productRefGroup = 9403B31A242F6A1E00F2BEED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9403B318242F6A1E00F2BEED /* AthkarApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9403B317242F6A1E00F2BEED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9403B342242F6A4900F2BEED /* AllahAkbar.mp3 in Resources */,
+				9403B33D242F6A4900F2BEED /* Almulk.mp3 in Resources */,
+				9403B340242F6A4900F2BEED /* Alnas.mp3 in Resources */,
+				D22BA0AF242F85CD002EC169 /* aThuluth.ttf in Resources */,
+				9403B343242F6A4900F2BEED /* LaElahaElaAllah.mp3 in Resources */,
+				9403B33C242F6A4900F2BEED /* Alkrsi.mp3 in Resources */,
+				9403B329242F6A1F00F2BEED /* LaunchScreen.storyboard in Resources */,
+				9403B326242F6A1F00F2BEED /* Assets.xcassets in Resources */,
+				9403B346242F6A4900F2BEED /* Alhamdu.mp3 in Resources */,
+				9403B344242F6A4900F2BEED /* Subhan.mp3 in Resources */,
+				9403B341242F6A4900F2BEED /* Alfateha.mp3 in Resources */,
+				9403B33F242F6A4900F2BEED /* Alekhlas.mp3 in Resources */,
+				9403B324242F6A1F00F2BEED /* Main.storyboard in Resources */,
+				9403B33E242F6A4900F2BEED /* Alfalaq.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9403B315242F6A1E00F2BEED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9403B321242F6A1F00F2BEED /* ViewController.swift in Sources */,
+				9403B31D242F6A1F00F2BEED /* AppDelegate.swift in Sources */,
+				9403B31F242F6A1F00F2BEED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9403B322242F6A1F00F2BEED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9403B323242F6A1F00F2BEED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9403B327242F6A1F00F2BEED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9403B328242F6A1F00F2BEED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9403B32B242F6A1F00F2BEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9403B32C242F6A1F00F2BEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9403B32E242F6A1F00F2BEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58U9M4P57N;
+				INFOPLIST_FILE = AthkarApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dalhazeem.AthkarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9403B32F242F6A1F00F2BEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58U9M4P57N;
+				INFOPLIST_FILE = AthkarApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dalhazeem.AthkarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9403B314242F6A1E00F2BEED /* Build configuration list for PBXProject "AthkarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9403B32B242F6A1F00F2BEED /* Debug */,
+				9403B32C242F6A1F00F2BEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9403B32D242F6A1F00F2BEED /* Build configuration list for PBXNativeTarget "AthkarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9403B32E242F6A1F00F2BEED /* Debug */,
+				9403B32F242F6A1F00F2BEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9403B311242F6A1E00F2BEED /* Project object */;
+}
